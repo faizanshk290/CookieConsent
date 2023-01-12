@@ -1,0 +1,197 @@
+body
+{
+    font-size: larger;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+h1,h3
+{
+    font-weight: 900;
+}
+
+h3
+{
+    margin-bottom: 20px;
+    font-size: 21px;
+    padding:0;
+}
+
+h4
+{
+    font-size: 30px;
+    margin: 0;
+}
+
+ul
+{
+    padding: 0;
+}
+
+li
+{
+    font-weight: 500;
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+li:nth-child(1){
+    background-color: #a2d2ffb9;
+}
+
+li:nth-child(2){
+    background-color: #ffafccd3;
+}
+
+li:nth-child(3){
+    background-color: #cdb4dbc2;
+}
+
+li:nth-child(4){
+    background-color: #faedcd;
+}
+
+span
+{
+    color: rgb(219, 44, 172);
+}
+
+#name,#email
+{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#main
+{
+    margin: 0px auto;
+    width: 450px;
+    position: relative;
+}
+
+.main-image
+{
+    width: 100%;
+}
+
+.modal-box
+{
+    display: none;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 25px;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    background-color: #212529;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px rgba(79, 79, 79, 0.818);
+}
+
+.modal-inner
+{
+    padding: 0px auto;
+}
+
+.modal-close
+{
+    text-align: right;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.modal-inner
+{
+    margin: 5px;
+}
+
+#modal-msg
+{
+    width: 100%;
+    height: 162px;
+}
+
+.modal-close-btn
+{
+    padding: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(119, 136, 153, 0.81);
+    border-color: transparent;
+    background: none;
+}
+
+.modal-btn-container
+{
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.reverse-btn
+{
+    flex-direction: row-reverse;
+}
+
+.modal-btn
+{
+    padding: 10px 25px;
+    font-size: 17px;
+}
+
+.loading-gif
+{
+    margin-top: 5%;
+    width: 100%;
+}
+
+#confirm-msg-container,#final-msg-container
+{
+    text-align: center;
+}
+
+#final-msg-container
+{
+    margin: 30px auto;
+    font-size: 21px;
+}
+
+.pirate-gif
+{
+    border-radius: 5px;
+}
+
+#modal-close-btn
+{
+    cursor: pointer;
+}
+
+#modal-close-btn:hover
+{
+    color: red;
+}
+
+#modal-close-btn:disabled
+{
+    color: whitesmoke;
+    cursor: not-allowed;
+}
